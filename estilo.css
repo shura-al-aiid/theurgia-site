@@ -100,3 +100,32 @@ p.item { padding-left: 1.1em; text-indent: -1.1em; margin-bottom: 8px; }
 .documentos { list-style: none; padding: 0; margin: 0 0 36px; }
 .documentos li { margin: 0 0 14px; font-size: 21px; }
 .contato { color: var(--text-soft); font-size: 17px; }
+
+/* The tester onboarding page (/teste/). */
+.passos { list-style: none; padding: 0; margin: 32px 0; }
+.passos li { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 28px; }
+.passos .n {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--line-soft);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cormorant", Georgia, serif;
+  font-size: 16px;
+  color: var(--accent);
+}
+.passos p { margin: 0 0 10px; }
+.botao {
+  display: inline-block;
+  border: 1px solid var(--line-soft);
+  padding: 10px 20px;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.botao:hover { border-color: var(--accent); }
+.nota { color: var(--text-soft); font-size: 15px; margin-top: 24px; }
