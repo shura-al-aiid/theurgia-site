@@ -30,6 +30,7 @@
   --red-blood: #c12727;
   --accent: #f04a3c;
   --line-soft: rgba(193, 39, 39, 0.38);
+  --bg-veil: rgba(193, 39, 39, 0.06);
   color-scheme: dark;
 }
 @media (prefers-color-scheme: light) {
@@ -39,6 +40,7 @@
     --text-soft: #5c4c46;
     --accent: #a31f1a;
     --line-soft: rgba(193, 39, 39, 0.42);
+    --bg-veil: rgba(193, 39, 39, 0.05);
     color-scheme: light;
   }
 }
@@ -129,3 +131,10 @@ p.item { padding-left: 1.1em; text-indent: -1.1em; margin-bottom: 8px; }
 }
 .botao:hover { border-color: var(--accent); }
 .nota { color: var(--text-soft); font-size: 15px; margin-top: 24px; }
+.aviso {
+  border: 1px solid var(--line-soft);
+  background: var(--bg-veil);
+  padding: 14px 16px;
+  font-size: 16px;
+  margin: 20px 0 32px;
+}
